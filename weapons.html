@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delta Force Intel - Weapons & Gunsmith</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-dark text-light d-flex flex-column min-vh-100">
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black border-bottom border-secondary sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-warning" href="index.html">
+                <i class="bi bi-crosshair"></i> DELTA FORCE INTEL
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">ข้อมูลเกม (Overview)</a></li>
+                    <li class="nav-item"><a class="nav-link" href="operators.html">หน่วยรบ (Operators)</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="weapons.html">คลังอาวุธ (Arsenal)</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <div class="container my-5">
+        <h2 class="text-uppercase border-start border-4 border-warning ps-3 mb-2">คลังอาวุธและระบบแต่งปืน (Arsenal & Gunsmith)</h2>
+        <p class="text-secondary mb-4">ตารางสถิติอาวุธยอดนิยมและชิ้นส่วนระบบ Gunsmith ที่สามารถปรับแต่งได้มากกว่า 10 ตำแหน่ง</p>
+
+        <!-- Gunsmith Feature Info -->
+        <div class="row mb-5">
+            <div class="col-12">
+                <div class="bg-black border border-secondary p-4 rounded shadow">
+                    <h4 class="text-warning fw-bold mb-3"><i class="bi bi-tools"></i> ระบบ Gunsmith System คืออะไร?</h4>
+                    <p class="text-secondary mb-0">ระบบ Gunsmith ในเกม Delta Force ช่วยให้ผู้เล่นปรับแต่งอาวุธได้อย่างอิสระ ตั้งแต่ ลำกล้องปืน (Barrel), ท่อเก็บเสียง (Suppressor), สโคปเล็ง (Optics), ด้ามจับ (Grip), แม็กกาซีน (Magazine) ไปจนถึง พานท้าย (Stock) เพื่อปรับเปลี่ยนค่า Recoil, Control และ Range ให้เหมาะกับสไตล์การเล่นของคุณ</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Weapons Stats Table -->
+        <h3 class="text-uppercase border-start border-4 border-warning ps-3 mb-3">เปรียบเทียบสถิติอาวุธหลัก (Weapons Statistics)</h3>
+        <div class="table-responsive">
+            <table class="table table-dark table-hover table-bordered border-secondary align-middle">
+                <thead class="table-black text-warning">
+                    <tr>
+                        <th>ชื่ออาวุธ</th>
+                        <th>ประเภท (Class)</th>
+                        <th>อัตราการยิง (RPM)</th>
+                        <th>ความเสียหาย (Damage)</th>
+                        <th>ระยะหวังผล (Effective Range)</th>
+                        <th>จุดเด่นเฉพาะ</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="fw-bold text-light">M4A1</td>
+                        <td><span class="badge bg-primary">Assault Rifle</span></td>
+                        <td>800 RPM</td>
+                        <td>Medium</td>
+                        <td>Medium</td>
+                        <td>คุมแรงดีดง่าย สมดุลทุกระยะการยิง</td>
+                    </tr>
+                    <tr>
+                        <td class="fw-bold text-light">K416</td>
+                        <td><span class="badge bg-primary">Assault Rifle</span></td>
+                        <td>850 RPM</td>
+                        <td>High</td>
+                        <td>Medium-Long</td>
+                        <td>อัตราการยิงสูง เหมาะสำหรับการปะทะระยะใกล้-กลาง</td>
+                    </tr>
+                    <tr>
+                        <td class="fw-bold text-light">Vector</td>
+                        <td><span class="badge bg-warning text-dark">SMG</span></td>
+                        <td>1100 RPM</td>
+                        <td>Low-Medium</td>
+                        <td>Short</td>
+                        <td>ยิงเร็วที่สุดในเกม ล้มศัตรูระยะใกล้ได้พริบตา</td>
+                    </tr>
+                    <tr>
+                        <td class="fw-bold text-light">AWM</td>
+                        <td><span class="badge bg-danger">Sniper Rifle</span></td>
+                        <td>40 RPM</td>
+                        <td>Very High</td>
+                        <td>Extreme Long</td>
+                        <td>ความเสียหายแรงสุด สังหารศัตรูโดนหัวนัดเดียวจบ</td>
+                    </tr>
+                    <tr>
+                        <td class="fw-bold text-light">PKM</td>
+                        <td><span class="badge bg-info text-dark">LMG</span></td>
+                        <td>650 RPM</td>
+                        <td>High</td>
+                        <td>Long</td>
+                        <td>แม็กกาซีนความจุสูง ยิงกดดันและยิงทะลุสิ่งกีดขวางได้ดี</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-black text-secondary text-center py-4 border-top border-secondary mt-auto">
+        <div class="container">
+            <p class="mb-0">&copy; 2026 Delta Force Intel Database. Designed for Tactical Gamers.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

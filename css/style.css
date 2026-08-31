@@ -1,0 +1,20 @@
+/* คุมขนาดภาพใน Card ให้สมดุล */
+.card-img-top {
+    height: 220px;
+    object-fit: cover;
+}
+
+/* ปรับแต่งเอฟเฟกต์การซูมและการเน้นกรอบ */
+.card {
+    transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    border-color: #ffc107 !important;
+}
+
+/* สไตล์ตาราง Dark Mode */
+.table-black {
+    background-color: #000000;
+}

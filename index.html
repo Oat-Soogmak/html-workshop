@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delta Force Intel - Game Overview</title>
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="bg-dark text-light d-flex flex-column min-vh-100">
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black border-bottom border-secondary sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-warning" href="index.html">
+                <i class="bi bi-crosshair"></i> DELTA FORCE INTEL
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">ข้อมูลเกม (Overview)</a></li>
+                    <li class="nav-item"><a class="nav-link" href="operators.html">หน่วยรบ (Operators)</a></li>
+                    <li class="nav-item"><a class="nav-link" href="weapons.html">คลังอาวุธ (Arsenal)</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="bg-black text-center py-5 border-bottom border-secondary position-relative">
+        <div class="container py-4">
+            <span class="badge bg-warning text-dark fw-bold mb-2">Tactical FPS Reinvented</span>
+            <h1 class="display-3 fw-bold text-uppercase text-warning">Delta Force</h1>
+            <p class="lead text-secondary col-md-8 mx-auto">ถอดรหัสข้อมูลเกมยิง Tactical FPS ยุคใหม่ ให้บริการแบบ Free-to-Play รองรับการเล่นข้ามแพลตฟอร์มทั้ง PC, Mobile และ Console</p>
+            <div class="d-flex justify-content-center gap-3 mt-4">
+                <a href="operators.html" class="btn btn-warning btn-lg fw-bold"><i class="bi bi-people-fill"></i> ดูข้อมูลหน่วยรบ</a>
+                <a href="weapons.html" class="btn btn-outline-light btn-lg fw-bold"><i class="bi bi-gun"></i> คลังอาวุธ</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Content: Game Modes -->
+    <div class="container my-5">
+        <h2 class="text-uppercase border-start border-4 border-warning ps-3 mb-4">ข้อมูลโหมดการเล่นหลัก (Game Modes)</h2>
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card bg-black border border-secondary text-light h-100 shadow">
+                    <img src="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Havoc Warfare">
+                    <div class="card-body">
+                        <span class="badge bg-danger mb-2">PvP Large-Scale</span>
+                        <h5 class="card-title text-warning fw-bold">Havoc Warfare</h5>
+                        <p class="card-text text-secondary">สมรภูมิสงครามขนาดใหญ่รองรับผู้เล่นสูงสุด 64 คน (32v32) ต่อสู้ครอบคลุมทั้งทางบก ทางทะเล และทางอากาศ ด้วยยานพาหนะเช่น รถถัง, รถหุ้มเกราะ และเฮลิคอปเตอร์</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-black border border-secondary text-light h-100 shadow">
+                    <img src="https://images.unsplash.com/photo-1511512578047-dfb367046420?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Hazard Operations">
+                    <div class="card-body">
+                        <span class="badge bg-warning text-dark mb-2">PvPvE Extraction</span>
+                        <h5 class="card-title text-warning fw-bold">Hazard Operations</h5>
+                        <p class="card-text text-secondary">โหมดเอาชีวิตรอด ค้นหาเสบียง และถอนกำลัง (Extraction Shooter) จัดทีม 3 คนเข้าไปฟาร์มไอเทมมีค่า ต่อสู้กับทั้งบอท AI และทีมผู้เล่นอื่นเพื่อนำของกลับออกมา</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card bg-black border border-secondary text-light h-100 shadow">
+                    <img src="https://images.unsplash.com/photo-1538481199705-c710c4e965fc?auto=format&fit=crop&w=600&q=80" class="card-img-top" alt="Black Hawk Down">
+                    <div class="card-body">
+                        <span class="badge bg-info text-dark mb-2">PvE Campaign</span>
+                        <h5 class="card-title text-warning fw-bold">Black Hawk Down</h5>
+                        <p class="card-text text-secondary">โหมดเนื้อเรื่องระดับตำนาน นำฉากการรบสุดคลาสสิกในโมกาดิชูกลับมาสร้างใหม่ด้วย Unreal Engine 5 ให้รายละเอียดกราฟิกและฟิสิกส์ที่สมจริงระดับภาพยนตร์</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- System Requirements Table -->
+        <div class="mt-5">
+            <h3 class="text-uppercase border-start border-4 border-warning ps-3 mb-3">สเปกคอมพิวเตอร์ที่แนะนำ (System Requirements)</h3>
+            <div class="table-responsive">
+                <table class="table table-dark table-striped table-bordered border-secondary align-middle">
+                    <thead class="table-black text-warning">
+                        <tr>
+                            <th>องค์ประกอบ</th>
+                            <th>ขั้นต่ำ (Minimum)</th>
+                            <th>แนะนำ (Recommended)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><strong>OS</strong></td>
+                            <td>Windows 10 64-bit</td>
+                            <td>Windows 10 / 11 64-bit</td>
+                        </tr>
+                        <tr>
+                            <td><strong>CPU</strong></td>
+                            <td>Intel Core i3-4150 / AMD FX-6300</td>
+                            <td>Intel Core i5-6500 / AMD Ryzen 5 1500X</td>
+                        </tr>
+                        <tr>
+                            <td><strong>RAM</strong></td>
+                            <td>12 GB</td>
+                            <td>16 GB</td>
+                        </tr>
+                        <tr>
+                            <td><strong>GPU</strong></td>
+                            <td>NVIDIA GTX 960 / AMD R9 380</td>
+                            <td>NVIDIA GTX 1060 / AMD RX 5500 XT</td>
+                        </tr>
+                        <tr>
+                            <td><strong>Storage</strong></td>
+                            <td>60 GB (แนะนำ SSD)</td>
+                            <td>60 GB (SSD)</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-black text-secondary text-center py-4 border-top border-secondary mt-auto">
+        <div class="container">
+            <p class="mb-0">&copy; 2026 Delta Force Intel Database. Designed for Tactical Gamers.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
